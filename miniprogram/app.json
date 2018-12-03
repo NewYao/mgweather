@@ -6,14 +6,13 @@
     "pages/databaseGuide/databaseGuide",
     "pages/addFunction/addFunction",
     "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib"
+    "pages/chooseLib/chooseLib",
+    "pages/set/set"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#fff",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "微信标题",
-    "navigationBarTextStyle": "black"
+    "navigationStyle":"custom"
   },
   "tabBar": {
     "position":"buttom",
@@ -31,7 +30,7 @@
         "selectedIconPath": "images/panel_active.png"
       },
       {
-        "pagePath": "pages/chooseLib/chooseLib",
+        "pagePath": "pages/set/set",
         "text": "设置",
         "iconPath": "images/set.png",
         "selectedIconPath": "images/set_active.png"

@@ -1,0 +1,13 @@
+<!--pages/sociality/sociality.wxml-->
+<view class='container'>
+<view class="searchview">
+<input class="input" type="number" placeholder="请输入账号" maxlength='15' placeholder-style="color: red" bindinput="listenerPhoneInput" />
+</view>
+
+<view class="pwdview">
+<input class="input" password="true" placeholder="请输入密码"  maxlength='30'  placeholder-style="color: red" bindinput="listenerPasswordInput"/>
+</view>
+
+
+<button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 40rpx" type="primary" bindtap="listenerLogin">登录</button>
+</view>

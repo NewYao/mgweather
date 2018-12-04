@@ -2,7 +2,9 @@
 
 App({
   globalData:{
-    navHeight:''
+    navHeight:'',
+    urlPath:'',
+    openid:''
   },
   onLaunch: function () {
     wx.getSystemInfo({

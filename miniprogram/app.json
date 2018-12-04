@@ -7,14 +7,16 @@
     "pages/addFunction/addFunction",
     "pages/deployFunctions/deployFunctions",
     "pages/set/set",
-    "pages/chooseLib/chooseLib"
+    "pages/chooseLib/chooseLib",
+    "pages/address/address"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "微信标题",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"default"
   },
   "tabBar": {
     "position":"buttom",
@@ -26,8 +28,8 @@
         "selectedIconPath": "images/app_active.png"
       },
       {
-        "pagePath": "pages/chooseLib/chooseLib",
-        "text": "动态",
+        "pagePath": "pages/address/address",
+        "text": "位置",
         "iconPath": "images/panel.png",
         "selectedIconPath": "images/panel_active.png"
       },
